@@ -567,7 +567,7 @@ tags: ["astro", "performance"]
 draft: false
 ---
 
-import { Aside } from '../../components/Aside.astro';
+import Aside from '../../components/Aside.astro';
 
 Astro ships **zero JavaScript by default**, which is why it scores so well on Core Web Vitals.
 
@@ -628,7 +628,7 @@ results:
 draft: false
 ---
 
-import { Aside } from '../../components/Aside.astro';
+import Aside from '../../components/Aside.astro';
 
 We rebuilt Acme's marketing site on Astro, replacing a heavy SPA.
 
